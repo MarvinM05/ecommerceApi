@@ -20,7 +20,7 @@ app.use("/avatars", express.static(path.join(__dirname, '../public')));
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Bienvenido a mi app",
+    message: "Bienvenido al Ecommerce",
   });
 });
 
