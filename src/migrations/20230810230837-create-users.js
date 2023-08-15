@@ -28,7 +28,7 @@ module.exports = {
           isEmail: true,
         },
       },
-      roll: {
+      rol: {
         type: Sequelize.STRING(20),
         defaultValue: "member",
       },
