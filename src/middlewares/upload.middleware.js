@@ -1,7 +1,7 @@
 const multer = require("multer");
 const path = require("path");
 
-const acceptedTypes = ['image/png', 'image/jpeg', 'image/webp']
+const acceptedTypes = ['image/png', 'image/jpeg', 'image/webp', ]
 
 const upload = multer({
   storage: multer.diskStorage({
